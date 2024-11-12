@@ -1,0 +1,97 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 10px;
+  font-style: normal;
+    }
+.Josefin {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+    }
+h1, h2{
+    color: whitesmoke;
+    font-size: xx-large;
+    }
+        
+h3, h4, h5, h6{
+    color: whitesmoke;
+    }
+nav{
+    color: black;
+    background-color: rgb(61, 224, 143);
+    height: 15vh;
+    }
+nav li {
+        list-style-type: none;
+    }    
+nav ul {
+        list-style: none;
+        padding:0;
+        margin:0;
+        background-color:#f2f2f2;
+    }  
+nav ul li {
+        display:inline-block;
+    }
+    nav ul li a {
+        display: block;
+        padding:10px20px;
+        color:#333;
+        text-decoration: none;
+    }
+nav ul li:hover {
+        background-color:#ddd;
+    }
+nav ul li:hover > ul {
+        display: block;
+    }
+nav ul ul {
+        display: none;
+        position: absolute;
+        background-color:#f2f2f2;
+    }
+nav ul ul li {
+        display: block;
+    }
+nav ul ul li a {
+        padding:10px30px;
+        color:#333;
+    }
+nav ul ul li a:hover {
+        background-color:#ddd;
+    }
+.logo{
+    width: 100px;
+    height: 50px;
+    }
+.background{
+    background-image: url(https://picsum.photos/1000/1000);
+    height: 50vh;
+    background-size: center;
+    background-position: center;
+    background-color: rgb(201, 199, 199);
+    padding-top: 10vh;
+    text-align: center;
+    }
+li{
+    font-size: small;
+    }
+section{
+    background: linear-gradient(#ffff00aa, #0099ffaa, #00fff2aa), url(https://picsum.photos/1500/300);
+}
+.bottone{
+    background-color: rgb(228, 223, 223);
+    color: white;
+    }
+.bottone:hover{
+    background-color: yellow;
+    color: black;
+    }
+.link{
+    text-decoration: none;
+    }
+.listlink{
+    list-style-type: none;
+    }
